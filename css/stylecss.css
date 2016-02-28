@@ -1,0 +1,121 @@
+body{
+    background: #f9f9f9;
+    font-family: Tahoma, sans-serif;
+    font-size: 13px;
+}
+.container {
+    width: 1060px;
+    margin: 0 auto;
+    min-height: 100%;
+    padding: 50px 45px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 5px 5px rgba(0,0,0,.3);
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+}
+.header .logo{
+    background: url(../img/logo.jpg) no-repeat;
+    width: 145px;
+    height: 40px;
+    margin-bottom: 35px;
+}
+.menu{
+    font-size: 0;
+    margin-bottom: 40px
+}
+.menu ul{
+    background: #535353;
+}
+.menu li {
+    display: inline-block;
+    font-size: 16px;
+}
+.menu ul li a {
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    color: #ddd;
+    background: #454545;
+}
+.menu ul li a:active,
+.menu ul li a:focus {
+    color: #fff;
+    background: #454545;
+    border-right: 1px solid #838383;
+    border-left: 1px solid  #838383;
+}
+.left_menu {
+    float: left;
+    border:1px solid #c8c8c8;
+    width: 240px;
+}
+.left_menu li {
+   border-bottom: 1px solid #c8c8c8;
+}
+.left_menu li:last-child {
+    border-bottom: none;
+}
+.left_menu a {
+    color: #656363;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+}
+.left_menu ul li a:hover{
+    margin-left: 15px;
+    text-indent: 15px;
+    background: #f9f9f9;
+    color: #2c2c2c;
+}
+.content{
+    margin-left: 53px;
+    width: 674px;
+    display: inline-block;
+}
+.content-wraper{
+    border: 1px solid #c8c8c8;
+
+}
+.content-wraper img{
+    margin: 55px auto;
+    display: block;
+}
+.text-wrapper{
+    line-height: 20px;
+    margin: 35px 20px;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background: #e1e1e1;
+}
+.menu-footer{
+    float: left;
+    width: 60%;
+    font-size: 0;
+}
+.menu-footer li{
+    display: inline-block;
+    font-size: 13px;
+}
+.menu-footer a{
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    color: #515151;
+}
+.menu-footer ul li a:hover,
+.menu-footer ul li a:active,
+.menu-footer ul li a:focus {
+    text-decoration: underline;
+}
+.copyright{
+    margin: 14px 45px 0 0;
+    float: right;
+}
